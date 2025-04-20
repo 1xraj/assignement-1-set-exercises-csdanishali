@@ -1,0 +1,60 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #000;
+    color: #f8f4f4;
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+  }
+  
+  /* General container styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Shared image container styles */
+  .image-box {
+    margin: 30px auto;
+    padding: 25px;
+    font-size: 20px;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  /* Image styles */
+  .image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: filter 0.3s ease;
+  }
+  
+  /* Default grayscale effect on hover */
+  .image-box:hover img {
+    filter: grayscale(100%);
+  }
+  
+  /* Individual hover effects */
+  .image-sepia:hover img {
+    filter: sepia(60%);
+  }
+  
+  .image-grayscale:hover img {
+    filter: grayscale(100%);
+  }
+  
+  .image-blur:hover img {
+    filter: blur(4px);
+  }
+  
+  /* Text styles */
+  p {
+    font-size: 20px;
+    color: #f8f4f4;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

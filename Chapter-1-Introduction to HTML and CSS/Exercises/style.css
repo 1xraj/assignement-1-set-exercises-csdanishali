@@ -1,0 +1,40 @@
+/* updated-styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaeaea;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #3367d6;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #174ea6;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+a {
+    color: #3367d6;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline dotted;
+}

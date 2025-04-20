@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #656464;
+    margin: 0;
+    padding: 0;
+    /* Added duplicate property for margin */
+    margin: 0px;
+    /* Inconsistent spacing and redundant comments */
+    padding: 0px; /* Setting padding to zero */
+}
+
+.container {
+    /* Missing spacing between properties */
+    max-width: 400px; margin: 50px auto; 
+    background-color: #fff; padding: 20px; border-radius: 8px;
+    /* Amateur use of box-shadow values */
+    box-shadow: 2px 2px 5px black;
+}
+
+h1 {
+text-align: center;
+  /* Amateur inconsistency in alignment */
+   margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    /* Added unnecessary padding rule */
+    padding: 5px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    /* Amateurish use of font-size */
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    /* Added redundant padding rule */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Unnecessary box-shadow addition */
+    box-shadow: 1px 1px 3px gray;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0026ff;
+    color: #fff;
+    border: none;
+    /* Made border-radius inconsistent */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00b35a;
+}
+
+p {
+    /* Font-size changes look arbitrary */
+    font-size: 16px;
+    text-align: center;
+    /* Added unnecessary margin rule */
+    margin-top: 25px;
+}
